@@ -330,3 +330,104 @@ a {
 .hero__decor-percent {
     pointer-events: none;
 }
+
+/* ==============Guide=============== */
+.guide {
+    margin-top: 160px;
+}
+
+.guide__media {
+    position: relative;
+    width: 470px;
+}
+.guide__img-wrap {
+    background: url(../img/guide-decor-03.svg) no-repeat bottom left;
+    padding-left: 7px;
+}
+
+.guide__img {
+    display: block;
+    width: 456px;
+    height: 619px;
+}
+
+.guide__card {
+    position: absolute;
+    right: -100px;
+    bottom: 96px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 15px;
+    width: 226px;
+    height: 70px;
+    border-radius: 8px;
+    background: #fffdfa;
+    box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.07);
+}
+
+.guide__card-decor-check {
+    display: block;
+}
+
+.guide__card-title {
+    display: block;
+    color: #212832;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.21;
+}
+
+.guide__card-desc {
+    color: #696d76;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.21;
+}
+
+.guide__card-logo {
+    position: absolute;
+    right: 62px;
+    top: 76px;
+}
+
+.guide__inner {
+    display: flex;
+    column-gap: 230px;
+}
+
+.guide__content {
+    padding-top: 29px;
+}
+
+.guide__heading {
+    margin-top: 12px;
+    color: #212832;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25; /* 125% */
+}
+
+.guide__list {
+    margin-top: 70px;
+}
+
+.guide__item:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.guide__item-title {
+    margin-bottom: 16px;
+    color: #212832;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.46; /* 145.455% */
+}
+
+.guide__item-desc {
+    color: #696d76;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
