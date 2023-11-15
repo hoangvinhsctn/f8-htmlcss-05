@@ -208,7 +208,7 @@ a {
     color: #7264d6;
 }
 
-.subscribe-form {
+.login-form {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -221,20 +221,20 @@ a {
     box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.07);
 }
 
-.subscribe-form__input {
+.login-form__input {
     width: 100%;
     height: 100%;
     border: none;
     outline: none;
 }
 
-.subscribe-form__input::placeholder {
+.login-form__input::placeholder {
     color: #696d76;
     font-weight: 400;
     line-height: 1.75; /* 175% */
 }
 
-.subscribe-form__submit {
+.login-form__submit {
     outline: none;
     border: none;
     min-width: 149px;
@@ -964,4 +964,112 @@ a {
 .install__decor-star:last-of-type {
     bottom: 49px;
     right: 166px;
+}
+
+/* ================Footer============== */
+.footer {
+    padding-top: 100px;
+    margin-top: 100px;
+    background: #fafbff;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 163px;
+}
+
+.footer__heading,
+.footer__title {
+    margin-bottom: 24px;
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+
+.footer__link {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #6a6e78;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+    opacity: 0.75;
+}
+
+.footer__item:last-of-type .footer__link {
+    margin-bottom: 0;
+}
+
+.footer__desc {
+    width: 371px;
+    margin-bottom: 48px;
+    opacity: 0.75;
+}
+
+.footer__title {
+    color: #0a142f;
+}
+
+.subscribe-form {
+    width: 403px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.subscribe-form__input {
+    outline: none;
+    border: none;
+    padding: 12px;
+    width: 270px;
+    height: 52px;
+    font-size: 1.6rem;
+    border-radius: 6px;
+    border: 1px solid #8e919a;
+}
+
+.subscribe-form__input::placeholder {
+    color: #8e919a;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.subscribe-form__btn {
+    outline: none;
+    border: none;
+    min-width: 113px;
+    --height: 52px;
+    background: #7264d6;
+    border-color: #7264d6;
+}
+
+.footer__contact {
+    margin-top: 54px;
+}
+
+.footer__contact-email,
+.footer__contact-phone {
+    color: #6a6e78;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+    text-decoration-line: underline;
+}
+
+.footer__contact-phone {
+    margin-left: 100px;
+}
+
+.footer__copyright {
+    margin-top: 28px;
+    background: #7264d6;
+    text-align: center;
+    padding: 28px 0;
+}
+
+.footer__copyright-text {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
 }
