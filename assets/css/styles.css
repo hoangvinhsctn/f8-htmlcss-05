@@ -883,3 +883,85 @@ a {
 .blog__item-cta:hover {
     color: #7264d6;
 }
+
+/* ==============Install================ */
+.install {
+    margin-top: 160px;
+}
+
+.install__inner {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 24px;
+    background: #7264d6;
+}
+
+.install__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.install__title::before {
+    content: "";
+    margin-right: 12px;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+}
+
+.install__heading {
+    margin-top: 12px;
+    color: #fff;
+}
+
+.install__desc {
+    margin: 18px auto 0;
+    width: 435px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.install__cta-group {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-top: 38px;
+}
+
+.install__cta:hover {
+    opacity: 0.9;
+}
+
+.install__cta img {
+    display: block;
+}
+
+.install__decor-star {
+    position: absolute;
+}
+
+.install__decor-star:nth-of-type(1) {
+    top: 49px;
+    left: 112px;
+}
+
+.install__decor-star:nth-of-type(2) {
+    top: 49px;
+    right: 112px;
+}
+
+.install__decor-star:nth-of-type(3) {
+    bottom: 49px;
+    left: 166px;
+}
+
+.install__decor-star:last-of-type {
+    bottom: 49px;
+    right: 166px;
+}
