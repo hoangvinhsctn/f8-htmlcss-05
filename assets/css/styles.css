@@ -55,6 +55,7 @@ a {
     color: #fff;
     font-weight: 600;
     line-height: 1.75; /* 175% */
+    transition: 0.5s ease-in-out;
 }
 
 .btn:hover {
@@ -139,6 +140,10 @@ a {
     color: #696d76;
     font-weight: 400;
     line-height: 1.75; /* 175% */
+}
+
+.navbar__link {
+    transition: 0.25s ease-in-out;
 }
 
 .navbar__link:hover {
@@ -693,6 +698,7 @@ a {
     height: 254px;
     border: 1px solid #dfe2e8;
     border-radius: 8px;
+    transition: 0.25s ease-in-out;
 }
 
 .review__column-box:hover {
@@ -842,6 +848,7 @@ a {
     border-radius: 12px;
     border: 1px solid #dfe2e8;
     background: #fff;
+    transition: 0.5s ease-in-out;
 }
 
 .blog__item:hover {
@@ -934,6 +941,10 @@ a {
     margin-top: 38px;
 }
 
+.install__cta {
+    transition: 0.25s ease-in-out;
+}
+
 .install__cta:hover {
     opacity: 0.9;
 }
@@ -944,6 +955,7 @@ a {
 
 .install__decor-star {
     position: absolute;
+    animation: spinner 4s ease-in-out alternate infinite;
 }
 
 .install__decor-star:nth-of-type(1) {
@@ -1055,6 +1067,7 @@ a {
     font-weight: 400;
     line-height: 1.67; /* 166.667% */
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .footer__contact-phone {
@@ -1072,4 +1085,13 @@ a {
     color: #fff;
     font-weight: 400;
     line-height: 1.75; /* 175% */
+}
+
+@keyframes spinner {
+    0% {
+        rotate: 0;
+    }
+    100% {
+        rotate: 360deg;
+    }
 }

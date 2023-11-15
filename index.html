@@ -93,6 +93,26 @@
 
         <!-- Style -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+
+        <!-- Animation -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+        <style>
+            [data-aos] {
+                visibility: hidden;
+            }
+            [data-aos].animate__animated {
+                visibility: visible;
+            }
+        </style>
     </head>
     <body>
         <!-- Header -->
@@ -143,7 +163,10 @@
         <section class="hero">
             <div class="container">
                 <div class="hero__inner">
-                    <section class="hero__content">
+                    <section
+                        class="hero__content"
+                        data-aos="animate__slideInLeft"
+                    >
                         <p class="section-title">Digital Smart Wallet</p>
                         <h1 class="section-heading hero__heading">
                             Digital <b class="hero__highlight">Payment</b> For
@@ -180,8 +203,12 @@
                                 src="./assets/img/hero-01.png"
                                 alt=""
                                 class="hero__img"
+                                data-aos="animate__fadeInUp"
                             />
-                            <div class="hero__decor-download">
+                            <div
+                                class="hero__decor-download"
+                                data-aos="animate__fadeInDown"
+                            >
                                 <img
                                     src="./assets/img/hero-decor-01.svg"
                                     alt=""
@@ -193,7 +220,10 @@
                                     >$32000</span
                                 >
                             </div>
-                            <div class="hero__decor-fund">
+                            <div
+                                class="hero__decor-fund"
+                                data-aos="animate__fadeInUp"
+                            >
                                 <img
                                     src="./assets/img/hero-decor-02.svg"
                                     alt=""
@@ -208,7 +238,10 @@
                                     >
                                 </div>
                             </div>
-                            <div class="hero__decor-percent">
+                            <div
+                                class="hero__decor-percent"
+                                data-aos="animate__fadeInDown"
+                            >
                                 <span class="hero__decor-percent-value"
                                     >0%</span
                                 >
@@ -227,7 +260,7 @@
             <section class="guide">
                 <div class="container">
                     <div class="guide__inner">
-                        <div class="guide__media">
+                        <div class="guide__media" data-aos="animate__fadeInUp">
                             <figure class="guide__img-wrap">
                                 <img
                                     src="./assets/img/guide-01.png"
@@ -261,7 +294,10 @@
                                 class="guide__card-logo"
                             />
                         </div>
-                        <section class="guide__content">
+                        <section
+                            class="guide__content"
+                            data-aos="animate__fadeInRight"
+                        >
                             <p class="section-title">Digital Smart Wallet</p>
                             <h2 class="section-heading guide__heading">
                                 How It Works
@@ -313,7 +349,10 @@
             <section class="payment">
                 <div class="container">
                     <div class="payment__inner">
-                        <section class="payment__content">
+                        <section
+                            class="payment__content"
+                            data-aos="animate__fadeInLeft"
+                        >
                             <p class="section-title">Digital Smart Wallet</p>
                             <h2 class="section-heading payment__heading">
                                 One Card For All Your Payments
@@ -336,8 +375,12 @@
                                     src="./assets/img/payment-01.png"
                                     alt=""
                                     class="payment__img"
+                                    data-aos="animate__fadeInDown"
                                 />
-                                <div class="payment__card">
+                                <div
+                                    class="payment__card"
+                                    data-aos="animate__fadeInRight"
+                                >
                                     <div class="payment__card-decor">
                                         <img
                                             src="./assets/img/payment-decor-01.svg"
@@ -364,7 +407,10 @@
                                         >
                                     </div>
                                 </div>
-                                <div class="payment__cost">
+                                <div
+                                    class="payment__cost"
+                                    data-aos="animate__fadeInRight"
+                                >
                                     <img
                                         src="./assets/img/payment-decor-02.svg"
                                         alt=""
@@ -387,7 +433,10 @@
                 <div class="container">
                     <div class="gain__inner">
                         <div class="gain__media">
-                            <div class="gain__img-wrap">
+                            <div
+                                class="gain__img-wrap"
+                                data-aos="animate__slideInDown"
+                            >
                                 <img
                                     src="./assets/img/gain-01.png"
                                     alt=""
@@ -419,7 +468,10 @@
                                 />
                             </div>
                         </div>
-                        <section class="gain__content">
+                        <section
+                            class="gain__content"
+                            data-aos="animate__slideInRight"
+                        >
                             <p class="section-title">Digital Smart Wallet</p>
                             <h2 class="section-heading gain__heading">
                                 Transfer and Deposite Your Money Anytime
@@ -460,7 +512,10 @@
 
                     <div class="review__row">
                         <!-- Review column 1 -->
-                        <div class="review__column">
+                        <div
+                            class="review__column"
+                            data-aos="animate__fadeInUp"
+                        >
                             <div class="review__column-box">
                                 <p class="review__column-box-content">
                                     Fantastic platform for online banking. The
@@ -490,7 +545,10 @@
                         </div>
 
                         <!-- Review column 2 -->
-                        <div class="review__column">
+                        <div
+                            class="review__column"
+                            data-aos="animate__fadeInDown"
+                        >
                             <div class="review__column-box">
                                 <p class="review__column-box-content">
                                     Fantastic platform for online banking. The
@@ -519,7 +577,7 @@
                             </div>
                         </div>
 
-                        <!-- Review column 1 -->
+                        <!-- Review column 3 -->
                         <div class="review__column">
                             <div class="review__column-box">
                                 <p class="review__column-box-content">
@@ -549,7 +607,7 @@
                             </div>
                         </div>
 
-                        <!-- Review column 1 -->
+                        <!-- Review column 4 -->
                         <div class="review__column">
                             <div class="review__column-box">
                                 <p class="review__column-box-content">
@@ -579,7 +637,7 @@
                             </div>
                         </div>
 
-                        <!-- Review column 1 -->
+                        <!-- Review column 5 -->
                         <div class="review__column">
                             <div class="review__column-box">
                                 <p class="review__column-box-content">
@@ -609,7 +667,7 @@
                             </div>
                         </div>
 
-                        <!-- Review column 1 -->
+                        <!-- Review column 6 -->
                         <div class="review__column">
                             <div class="review__column-box">
                                 <p class="review__column-box-content">
@@ -668,7 +726,7 @@
 
                     <div class="blog__list">
                         <!-- Blog item 1 -->
-                        <section class="blog__item">
+                        <section class="blog__item" data-aos="animate__flipInX">
                             <figure class="blog__item-img-wrap">
                                 <img
                                     src="./assets/img/blog-01.jpg"
@@ -691,7 +749,7 @@
                         </section>
 
                         <!-- Blog item 2 -->
-                        <section class="blog__item">
+                        <section class="blog__item" data-aos="animate__flipInX">
                             <figure class="blog__item-img-wrap">
                                 <img
                                     src="./assets/img/blog-02.jpg"
@@ -714,7 +772,7 @@
                         </section>
 
                         <!-- Blog item 3 -->
-                        <section class="blog__item">
+                        <section class="blog__item" data-aos="animate__flipInX">
                             <figure class="blog__item-img-wrap">
                                 <img
                                     src="./assets/img/blog-03.jpg"
@@ -737,7 +795,7 @@
                         </section>
 
                         <!-- Blog item 4 -->
-                        <section class="blog__item">
+                        <section class="blog__item" data-aos="animate__flipInX">
                             <figure class="blog__item-img-wrap">
                                 <img
                                     src="./assets/img/blog-04.jpg"
@@ -916,5 +974,14 @@
                 </p>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                useClassNames: true,
+                initClassName: null,
+                animatedClassName: "animate__animated",
+            });
+        </script>
     </body>
 </html>
