@@ -695,14 +695,24 @@ a {
     border-radius: 8px;
 }
 
+.review__column-box:hover {
+    background: #fff;
+    border: #fff;
+    filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
+}
+
+.review__column:has(.review__column-box:hover) .review__column-box::after {
+    border: #fff;
+}
+
 .review__column-box::after {
     content: "";
     position: absolute;
     width: 82px;
     height: 82px;
-    bottom: -42px;
+    bottom: -41px;
     left: 50%;
-    transform: translateX(-50%) rotate(54deg) skew(16deg);
+    transform: translateX(-50%) rotate(48deg) skew(6deg);
     background: #fff;
     border-right: 1px solid #dfe2e8;
     border-bottom: 1px solid #dfe2e8;
