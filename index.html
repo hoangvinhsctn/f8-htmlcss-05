@@ -184,6 +184,8 @@
                                 id=""
                                 name=""
                                 placeholder="Your email address"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                required
                             />
                             <button
                                 type="submit"
@@ -951,6 +953,8 @@
                                 id=""
                                 class="subscribe-form__input"
                                 placeholder="Email address..."
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                required
                             />
                             <button
                                 type="submit"
@@ -963,8 +967,14 @@
                 </div>
 
                 <div class="footer__contact">
-                    <span class="footer__contact-email">email@gmail.com</span>
-                    <span class="footer__contact-phone">(123) 456-7890</span>
+                    <a
+                        href="mailto:email@gmail.com"
+                        class="footer__contact-email"
+                        >email@gmail.com</a
+                    >
+                    <a href="tel:(123) 456-7890" class="footer__contact-phone"
+                        >(123) 456-7890</a
+                    >
                 </div>
             </div>
 
